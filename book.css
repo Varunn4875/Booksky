@@ -1,0 +1,110 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.heading {
+  background-color: #fd6569;
+}
+.containerbox {
+  padding: 10px;
+  vertical-align: top;
+}
+.listitem {
+  width: 25%;
+  padding: 15px;
+  font-size: large;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  margin: 30px;
+  display: inline-block;
+  vertical-align: top;
+}
+.listitem h2 {
+  color: #fd6569;
+  font-style: italic;
+}
+.listitem button {
+  background-color: #fd6569;
+  color: black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.cancel-box {
+  background-color: #fd6569;
+  border-radius: 100%;
+  border: none;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  padding: 30px;
+  font-size: larger;
+}
+
+.opaque-box {
+  background-color: black;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.popup-box {
+  background-color: #fd6569;
+  color: antiquewhite;
+  width: 40%;
+  padding: 40px;
+  border-radius: 10px;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  z-index: 2;
+  display: none;
+}
+.popup-box input {
+  background: transparent;
+  border: none;
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+  color: black;
+  font-size: 20px;
+  border-bottom: solid black 2px;
+}
+.popup-box textarea {
+  background: transparent;
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+  color: black;
+  font-size: 20px;
+  border: solid black 2px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+.popup-box button {
+  padding: 10px;
+  background-color: black;
+  color: beige;
+  margin: 3px;
+  border-radius: 15px;
+  border: none;
+}
+.popup-box input::placeholder {
+  color: black;
+}
+.popup-box textarea::placeholder {
+  color: black;
+}
+.popup-box textarea:focus {
+  outline: none;
+}
+.popup-box input:focus {
+  outline: none;
+}
